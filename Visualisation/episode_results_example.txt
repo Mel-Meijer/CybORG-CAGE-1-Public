@@ -1,0 +1,2507 @@
+Episode Config Info
+Blue model used: /Users/Melanie/repos/individual-project-cm3203/Training/Saved_Models/DQN_final_model_rg.zip
+Algorithm used: DQN
+Red agent used: Meander
+Green agent used? True
+Episode max steps limit: 100
+--------------------------------------------------------------------------------
+
+Step number: 1
+Blue action: Remove User2
+Green action: Sleep
+Red action: DiscoverRemoteSystems 10.0.13.96/28
+Step reward: 0.0
+Total reward: 0.0
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 1
+
+Step number: 2
+Blue action: Remove User2
+Green action: GreenPortScan
+Red action: DiscoverNetworkServices 10.0.13.108
+Step reward: 0.0
+Total reward: 0.0
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |   True  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 2
+
+Step number: 3
+Blue action: Restore Op_Host1
+Green action: GreenPortScan
+Red action: DiscoverNetworkServices 10.0.13.106
+Step reward: 0.0
+Total reward: 0.0
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |   True  |    None    |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 3
+
+Step number: 4
+Blue action: Restore Op_Host1
+Green action: Sleep
+Red action: DiscoverNetworkServices 10.0.13.105
+Step reward: 0.0
+Total reward: 0.0
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |   True  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 4
+
+Step number: 5
+Blue action: Restore Op_Host1
+Green action: Sleep
+Red action: DiscoverNetworkServices 10.0.13.101
+Step reward: 0.0
+Total reward: 0.0
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |   True  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 5
+
+Step number: 6
+Blue action: Restore Op_Host1
+Green action: Sleep
+Red action: DiscoverNetworkServices 10.0.13.109
+Step reward: 0.0
+Total reward: 0.0
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |   True  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 6
+
+Step number: 7
+Blue action: Restore Op_Host1
+Green action: GreenPortScan
+Red action: PrivilegeEscalate User0
+Step reward: 0.0
+Total reward: 0.0
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 7
+
+Step number: 8
+Blue action: Remove User2
+Green action: Sleep
+Red action: ExploitRemoteService 10.0.13.108
+Step reward: 0.0
+Total reward: 0.0
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 8
+
+Step number: 9
+Blue action: Restore Op_Host1
+Green action: Sleep
+Red action: ExploitRemoteService 10.0.13.106
+Step reward: -0.1
+Total reward: -0.1
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 9
+
+Step number: 10
+Blue action: Remove Enterprise0
+Green action: GreenPortScan
+Red action: PrivilegeEscalate User1
+Step reward: -0.1
+Total reward: -0.2
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 10
+
+Step number: 11
+Blue action: Remove Enterprise2
+Green action: Sleep
+Red action: DiscoverNetworkServices 10.0.98.173
+Step reward: -0.1
+Total reward: -0.30000000000000004
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |   True  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 11
+
+Step number: 12
+Blue action: Restore Op_Host1
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.173
+Step reward: -0.1
+Total reward: -0.4
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 12
+
+Step number: 13
+Blue action: Remove Enterprise1
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise1
+Step reward: -0.1
+Total reward: -0.5
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 13
+
+Step number: 14
+Blue action: Restore Op_Host1
+Green action: Sleep
+Red action: ExploitRemoteService 10.0.98.173
+Step reward: -0.1
+Total reward: -0.6
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 14
+
+Step number: 15
+Blue action: Remove Enterprise1
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise1
+Step reward: -0.1
+Total reward: -0.7
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 15
+
+Step number: 16
+Blue action: Restore Op_Host1
+Green action: Sleep
+Red action: ExploitRemoteService 10.0.98.173
+Step reward: -0.1
+Total reward: -0.7999999999999999
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 16
+
+Step number: 17
+Blue action: Remove Enterprise1
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise1
+Step reward: -0.1
+Total reward: -0.8999999999999999
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 17
+
+Step number: 18
+Blue action: Restore Op_Host1
+Green action: Sleep
+Red action: ExploitRemoteService 10.0.98.173
+Step reward: -0.1
+Total reward: -0.9999999999999999
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 18
+
+Step number: 19
+Blue action: Remove Enterprise1
+Green action: Sleep
+Red action: PrivilegeEscalate Enterprise1
+Step reward: -0.1
+Total reward: -1.0999999999999999
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 19
+
+Step number: 20
+Blue action: Remove User3
+Green action: Sleep
+Red action: ExploitRemoteService 10.0.98.173
+Step reward: -0.1
+Total reward: -1.2
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 20
+
+Step number: 21
+Blue action: Restore Op_Host1
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise1
+Step reward: -0.1
+Total reward: -1.3
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 21
+
+Step number: 22
+Blue action: Analyse Op_Server
+Green action: Sleep
+Red action: PrivilegeEscalate User0
+Step reward: -0.1
+Total reward: -1.4000000000000001
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 22
+
+Step number: 23
+Blue action: Restore Op_Host1
+Green action: Sleep
+Red action: PrivilegeEscalate User1
+Step reward: -0.1
+Total reward: -1.5000000000000002
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 23
+
+Step number: 24
+Blue action: Analyse User0
+Green action: Sleep
+Red action: ExploitRemoteService 10.0.98.173
+Step reward: -0.1
+Total reward: -1.6000000000000003
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 24
+
+Step number: 25
+Blue action: Remove Enterprise1
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise1
+Step reward: -0.1
+Total reward: -1.7000000000000004
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 25
+
+Step number: 26
+Blue action: Analyse Enterprise1
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.173
+Step reward: -0.1
+Total reward: -1.8000000000000005
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 26
+
+Step number: 27
+Blue action: Misinform Enterprise1
+Green action: Sleep
+Red action: PrivilegeEscalate Enterprise1
+Step reward: -1.1
+Total reward: -2.9000000000000004
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 27
+
+Step number: 28
+Blue action: Remove User3
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.173
+Step reward: -0.1
+Total reward: -3.0000000000000004
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 28
+
+Step number: 29
+Blue action: Remove Enterprise1
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise1
+Step reward: -0.1
+Total reward: -3.1000000000000005
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 29
+
+Step number: 30
+Blue action: Analyse Enterprise1
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.173
+Step reward: -0.1
+Total reward: -3.2000000000000006
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 30
+
+Step number: 31
+Blue action: Restore User3
+Green action: Sleep
+Red action: PrivilegeEscalate Enterprise1
+Step reward: -1.1
+Total reward: -4.300000000000001
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 | False |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  | Privileged |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 31
+
+Step number: 32
+Blue action: Misinform Enterprise1
+Green action: GreenPortScan
+Red action: DiscoverRemoteSystems 10.0.98.160/28
+Step reward: -1.1
+Total reward: -5.4
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 32
+
+Step number: 33
+Blue action: Remove User3
+Green action: Sleep
+Red action: DiscoverNetworkServices 10.0.98.167
+Step reward: -0.1
+Total reward: -5.5
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |   True  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 33
+
+Step number: 34
+Blue action: Remove User3
+Green action: Sleep
+Red action: DiscoverNetworkServices 10.0.98.168
+Step reward: -0.1
+Total reward: -5.6
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |   True  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 34
+
+Step number: 35
+Blue action: Remove User3
+Green action: Sleep
+Red action: DiscoverNetworkServices 10.0.98.171
+Step reward: -0.1
+Total reward: -5.699999999999999
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |   True  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 35
+
+Step number: 36
+Blue action: Remove User3
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.167
+Step reward: -0.1
+Total reward: -5.799999999999999
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 36
+
+Step number: 37
+Blue action: Restore Enterprise0
+Green action: Sleep
+Red action: PrivilegeEscalate Enterprise1
+Step reward: -0.1
+Total reward: -5.899999999999999
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 37
+
+Step number: 38
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: PrivilegeEscalate User0
+Step reward: -0.1
+Total reward: -5.999999999999998
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 38
+
+Step number: 39
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: PrivilegeEscalate User1
+Step reward: -0.1
+Total reward: -6.099999999999998
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 39
+
+Step number: 40
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -6.1999999999999975
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 40
+
+Step number: 41
+Blue action: Misinform Enterprise0
+Green action: Sleep
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -7.299999999999997
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 41
+
+Step number: 42
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -7.399999999999997
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 42
+
+Step number: 43
+Blue action: Misinform Enterprise0
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -8.499999999999996
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 43
+
+Step number: 44
+Blue action: Restore Op_Host2
+Green action: Sleep
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -8.599999999999996
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 44
+
+Step number: 45
+Blue action: Misinform Enterprise0
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -9.699999999999996
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 45
+
+Step number: 46
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -9.799999999999995
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 46
+
+Step number: 47
+Blue action: Misinform Enterprise0
+Green action: Sleep
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -10.899999999999995
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 47
+
+Step number: 48
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -10.999999999999995
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 48
+
+Step number: 49
+Blue action: Misinform Enterprise0
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -12.099999999999994
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 49
+
+Step number: 50
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -12.199999999999994
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 50
+
+Step number: 51
+Blue action: Misinform Enterprise0
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -13.299999999999994
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 51
+
+Step number: 52
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -13.399999999999993
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 52
+
+Step number: 53
+Blue action: Misinform Enterprise0
+Green action: Sleep
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -14.499999999999993
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 53
+
+Step number: 54
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -14.599999999999993
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 54
+
+Step number: 55
+Blue action: Misinform Enterprise0
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -15.699999999999992
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 55
+
+Step number: 56
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -15.799999999999992
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 56
+
+Step number: 57
+Blue action: Misinform Enterprise0
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -16.89999999999999
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 57
+
+Step number: 58
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -16.999999999999993
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 58
+
+Step number: 59
+Blue action: Misinform Enterprise0
+Green action: Sleep
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -18.099999999999994
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 59
+
+Step number: 60
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -18.199999999999996
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 60
+
+Step number: 61
+Blue action: Misinform Enterprise0
+Green action: Sleep
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -19.299999999999997
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 61
+
+Step number: 62
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -19.4
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 62
+
+Step number: 63
+Blue action: Misinform Enterprise0
+Green action: Sleep
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -20.5
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 63
+
+Step number: 64
+Blue action: Restore Op_Host2
+Green action: Sleep
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -20.6
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 64
+
+Step number: 65
+Blue action: Misinform Enterprise0
+Green action: Sleep
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -21.700000000000003
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 65
+
+Step number: 66
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -21.800000000000004
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 66
+
+Step number: 67
+Blue action: Misinform Enterprise0
+Green action: Sleep
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -22.900000000000006
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 67
+
+Step number: 68
+Blue action: Restore Op_Host2
+Green action: Sleep
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -23.000000000000007
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 68
+
+Step number: 69
+Blue action: Misinform Enterprise0
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -24.10000000000001
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 69
+
+Step number: 70
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -24.20000000000001
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 70
+
+Step number: 71
+Blue action: Misinform Enterprise0
+Green action: Sleep
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -25.30000000000001
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 71
+
+Step number: 72
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -25.400000000000013
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 72
+
+Step number: 73
+Blue action: Misinform Enterprise0
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -26.500000000000014
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 73
+
+Step number: 74
+Blue action: Restore Defender
+Green action: Sleep
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -26.600000000000016
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 74
+
+Step number: 75
+Blue action: Misinform Enterprise0
+Green action: Sleep
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -27.700000000000017
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 75
+
+Step number: 76
+Blue action: Restore Op_Host2
+Green action: Sleep
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -27.80000000000002
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 76
+
+Step number: 77
+Blue action: Misinform Enterprise0
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -28.90000000000002
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 77
+
+Step number: 78
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -29.00000000000002
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 78
+
+Step number: 79
+Blue action: Misinform Enterprise0
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -30.100000000000023
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 79
+
+Step number: 80
+Blue action: Restore Op_Host2
+Green action: Sleep
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -30.200000000000024
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 80
+
+Step number: 81
+Blue action: Misinform Enterprise0
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -31.300000000000026
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 81
+
+Step number: 82
+Blue action: Restore Op_Host2
+Green action: Sleep
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -31.400000000000027
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 82
+
+Step number: 83
+Blue action: Misinform Enterprise0
+Green action: Sleep
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -32.50000000000003
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 83
+
+Step number: 84
+Blue action: Restore Op_Host2
+Green action: Sleep
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -32.60000000000003
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 84
+
+Step number: 85
+Blue action: Misinform Enterprise0
+Green action: Sleep
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -33.70000000000003
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 85
+
+Step number: 86
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -33.80000000000003
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 86
+
+Step number: 87
+Blue action: Misinform Enterprise0
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -34.900000000000034
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 87
+
+Step number: 88
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -35.000000000000036
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 88
+
+Step number: 89
+Blue action: Misinform Enterprise0
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -36.10000000000004
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 89
+
+Step number: 90
+Blue action: Restore Op_Host2
+Green action: Sleep
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -36.20000000000004
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 90
+
+Step number: 91
+Blue action: Misinform Enterprise0
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -37.30000000000004
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 91
+
+Step number: 92
+Blue action: Restore Op_Host2
+Green action: Sleep
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -37.40000000000004
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 92
+
+Step number: 93
+Blue action: Misinform Enterprise0
+Green action: Sleep
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -38.50000000000004
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 93
+
+Step number: 94
+Blue action: Restore Op_Host2
+Green action: Sleep
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -38.600000000000044
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 94
+
+Step number: 95
+Blue action: Misinform Enterprise0
+Green action: Sleep
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -39.700000000000045
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 95
+
+Step number: 96
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -39.80000000000005
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 96
+
+Step number: 97
+Blue action: Misinform Enterprise0
+Green action: GreenPortScan
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -40.90000000000005
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 97
+
+Step number: 98
+Blue action: Restore Op_Host2
+Green action: Sleep
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -41.00000000000005
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 98
+
+Step number: 99
+Blue action: Misinform Enterprise0
+Green action: Sleep
+Red action: PrivilegeEscalate Enterprise0
+Step reward: -1.1
+Total reward: -42.10000000000005
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 99
+
+Step number: 100
+Blue action: Restore Op_Host2
+Green action: GreenPortScan
+Red action: ExploitRemoteService 10.0.98.168
+Step reward: -0.1
+Total reward: -42.20000000000005
++----------------+-------------+-------------+-------+---------+------------+
+|     Subnet     |  IP Address |   Hostname  | Known | Scanned |   Access   |
++----------------+-------------+-------------+-------+---------+------------+
+| 10.0.98.160/28 | 10.0.98.167 |   Defender  |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.168 | Enterprise0 |  True |  False  |    User    |
+| 10.0.98.160/28 | 10.0.98.173 | Enterprise1 |  True |  False  |    None    |
+| 10.0.98.160/28 | 10.0.98.171 | Enterprise2 |  True |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.137 |   Op_Host0  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.129 |   Op_Host1  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.142 |   Op_Host2  | False |  False  |    None    |
+| 10.0.85.128/28 | 10.0.85.138 |  Op_Server0 | False |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.108 |    User0    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.106 |    User1    |  True |  False  | Privileged |
+| 10.0.13.96/28  | 10.0.13.105 |    User2    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.101 |    User3    |  True |  False  |    None    |
+| 10.0.13.96/28  | 10.0.13.109 |    User4    |  True |  False  |    None    |
++----------------+-------------+-------------+-------+---------+------------+
+End of step 100
